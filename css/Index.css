@@ -1,0 +1,56 @@
+/* .contenedor{ /MAYBE BORRAR
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: black;
+} */
+
+/* achiqué el logo, le quité el borde, le puse margenes arriba y abajo  */
+.logo{
+    width: 180px;
+    border: none;
+    margin-left: 10%;
+}
+
+/* contenedro del boton */
+.contboton{
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+/* cambié el color y le quité el borde al botón */
+.boton{
+    border: none;
+    font-size: 80%;
+    background-color:#2F495B;
+}
+
+/* .cont{ /MAYBE BORRAR
+   border-radius: 5px; 
+} */
+
+/* contenedor de las filas */
+#nabvarrr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botones .btn{
+    background-color: #2F495B ;
+} 
+
+/* .botones{ /MAYBE BORRAR
+    display: flex;
+    justify-content: space-around;
+} */
+
+nav{
+    height: 200px;
+    padding-top: 20px;
+}
+
+h5{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
