@@ -1,8 +1,10 @@
-/* .contenedor{ /MAYBE BORRAR
-    margin-right: 2%;
-    margin-left: 2%;
-    background-color: black;
-} */
+.contenedor{
+    height: 167px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("../img/mont.jpg");
+}
 
 /* achiqué el logo, le quité el borde, le puse margenes arriba y abajo  */
 .logo{
@@ -17,7 +19,7 @@
     margin-right: 10%;
 }
 
-/* cambié el color y le quité el borde al botón */
+/* cambié el color y le quité el borde al botón de cerrar sección */
 .boton{
     border: none;
     font-size: 80%;
@@ -46,11 +48,20 @@
 
 nav{
     height: 200px;
-    padding-top: 20px;
+    padding-top: 7px;
 }
 
-h5{
-    margin-right: 10%;
-    margin-left: 10%;
+/* hasta acá va la barra de navegación */
+/* --------------------------------------------------------------- */
+
+.section{
+    margin: 20px 10% 0px 10%;
     text-align: center;
+}
+
+@media (min-width: 869px){
+    /* para que la imagen de las montañas se adecue cuando la pantalla está en menos de 869px  */
+    .contenedor{
+        height: 127px;
+    }
 }
