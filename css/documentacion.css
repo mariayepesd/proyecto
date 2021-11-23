@@ -1,8 +1,10 @@
-/* .contenedor{ /MAYBE BORRAR
-    margin-right: 2%;
-    margin-left: 2%;
-    background-color: black;
-} */
+.contenedor{
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("../img/mont.jpg");
+    height: 160px;
+}
 
 /* achiqué el logo, le quité el borde, le puse margenes arriba y abajo  */
 .logo{
@@ -17,7 +19,7 @@
     margin-right: 10%;
 }
 
-/* cambié el color y le quité el borde al botón */
+/* cambié el color y le quité el borde al botón de cerrar sección*/
 .boton{
     border: none;
     font-size: 80%;
@@ -36,7 +38,7 @@
 }
 
 .botones .btn{
-    background-color: #2F495B ;
+    background-color: #2F495B;
 } 
 
 /* .botones{ /MAYBE BORRAR
@@ -46,23 +48,43 @@
 
 nav{
     height: 200px;
-    padding-top: 20px;
+    padding-top: 7px;
 }
 
+/* pone el titulo "documentacion" en blanco y lo centra */
 .document{
     text-align: center;
+    color: white;
+}
+
+/* hasta acá va la barra de navegación */
+/* --------------------------------------------------------------- */
+
+/* para centrar y ponerle margen al texto */
+.section{
+    margin: 20px 10% 0px 10%;
+    display: flex;
+    justify-content: space-around;
 }
 
 
-h5{
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-}
-
-/* para que los botones no estén encima del texto cuando la pantalla está en menos de 846px */
-@media (max-width: 846px){
-    section{
-        margin-top: 30px;
+@media (max-width: 869px){
+    /* para que la imagen de las montañas se adecue cuando la pantalla está en menos de 869px  */
+    .contenedor{
+        height: 197px;
     }
+}
+
+/* para cuadrar la imagen de la carpeta negra */
+.imgcarpeta{
+    width: 100px;
+    margin-left: 30px;
+}
+
+.card-body .btn{
+    background-color: #334752;
+}
+
+.card{
+    border: none;
 }
