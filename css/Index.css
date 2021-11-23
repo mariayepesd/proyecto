@@ -19,6 +19,9 @@
     margin-right: 10%;
 }
 
+a{
+    text-decoration: none;
+}
 /* cambié el color y le quité el borde al botón de cerrar sección */
 .boton{
     border: none;
